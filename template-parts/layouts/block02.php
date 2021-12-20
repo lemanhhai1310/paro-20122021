@@ -132,3 +132,158 @@
         </div>
     </div>
 </div>
+<div class="uk-section-small block02__section">
+    <div class="uk-container">
+        <div class="uk-flex-middle" uk-grid>
+            <div class="uk-width-2-5@m">
+                <div class="block01__item32">
+                    <h3 class="uk-h3 block02__title">4 bước học với Paro 🤩</h3>
+                </div>
+                <div class="block01__item32">
+                    <ul class="uk-visible@m block02__accordion" uk-accordion>
+                        <li class="uk-open block02__accordion__li">
+                            <a class="uk-accordion-title block02__accordion__a" href="#"><div class="block02__accordion__txt">Chọn giáo viên và giờ học</div></a>
+                            <div class="uk-accordion-content block02__accordion__content">
+                                <p class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </li>
+                        <li class="block02__accordion__li">
+                            <a class="uk-accordion-title block02__accordion__a" href="#"><div class="block02__accordion__txt">Chọn khóa học phù hợp</div></a>
+                            <div class="uk-accordion-content block02__accordion__content">
+                                <p class="block02__accordion__p">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                            </div>
+                        </li>
+                        <li class="block02__accordion__li">
+                            <a class="uk-accordion-title block02__accordion__a" href="#"><div class="block02__accordion__txt">Tương tác với giáo viên trong lớp</div></a>
+                            <div class="uk-accordion-content block02__accordion__content">
+                                <p class="block02__accordion__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                        <li class="block02__accordion__li">
+                            <a class="uk-accordion-title block02__accordion__a" href="#"><div class="block02__accordion__txt">Xem lại buổi học</div></a>
+                            <div class="uk-accordion-content block02__accordion__content">
+                                <p class="block02__accordion__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="uk-hidden@m">
+                        <ul class="uk-child-width-expand block02__tab" uk-tab>
+                            <li class="uk-active block02__tab__li"><a class="block02__tab__a" href="#"></a></li>
+                            <li class="block02__tab__li"><a class="block02__tab__a" href="#"></a></li>
+                            <li class="block02__tab__li"><a class="block02__tab__a" href="#"></a></li>
+                            <li class="block02__tab__li"><a class="block02__tab__a" href="#"></a></li>
+                        </ul>
+                        <ul class="uk-switcher uk-margin uk-text-left">
+                            <li>
+                                <div class="block01__item8">
+                                    <div class="block02__accordion__txt">Chọn giáo viên và giờ học</div>
+                                </div>
+                                <div class="block01__item8">
+                                    <div class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="block01__item8">
+                                    <div class="block02__accordion__txt">Chọn khóa học phù hợp</div>
+                                </div>
+                                <div class="block01__item8">
+                                    <div class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="block01__item8">
+                                    <div class="block02__accordion__txt">Tương tác với giáo viên trong lớp</div>
+                                </div>
+                                <div class="block01__item8">
+                                    <div class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="block01__item8">
+                                    <div class="block02__accordion__txt">Xem lại buổi học</div>
+                                </div>
+                                <div class="block01__item8">
+                                    <div class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-expand">
+                <div class="block02__box1">
+                    <img class="uk-visible@m" src="images/4buoc.png" alt="">
+                    <img class="uk-hidden@m uk-width-1-1" src="images/4buoc1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section-small block02__hocvien">
+    <div class="uk-container">
+        <div class="block01__item40">
+            <h3 class="uk-h3 block02__title uk-text-center">Học viên nói về Paro</h3>
+        </div>
+        <div class="block01__item40">
+            <div class="block02__hocvien__box" uk-toggle="cls: uk-overflow-auto; mode: media; media: (max-width: 959px)">
+                <div class="block02__hocvien__grid uk-grid-24-m uk-grid-small uk-child-width-1-3@m uk-flex-nowrap" uk-grid>
+                    <?php
+                    $data = array(
+                        array(
+                            'name' => 'Andy White',
+                            'img' => 'images/unsplash_COgbRUTvL-s.png',
+                        ),
+                        array(
+                            'name' => 'Rusia Mai',
+                            'img' => 'images/unsplash_ICbGtkX9-q8.png',
+                        ),
+                        array(
+                            'name' => 'Madam Shelby',
+                            'img' => 'images/unsplash_owFmHMC4QAI.png',
+                        ),
+                    );
+                    foreach ($data as $item): ?>
+                        <div class="block02__hocvien__column">
+                            <div class="block02__hocvien__card uk-card uk-card-default uk-card-body">
+                                <div class="block01__item24">
+                                    <div class="block02__hocvien__txt">“Corporis saepe aut officiis labore aperiam consequatur quis sunt. Delectus facere soluta. Sunt dolorem minima optio labore ut qui placeat. Quis amet eaque sint ab. Natus eos ut accusantium qui suscipit enim omnis.”</div>
+                                </div>
+                                <div class="block01__item24">
+                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container uk-border-circle">
+                                                <img src="<?= $item['img'] ?>" alt="" uk-cover="">
+                                                <canvas class="uk-visible@m" width="72" height="72"></canvas>
+                                                <canvas class="uk-hidden@m" width="44" height="44"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="block02__hocvien__name"><?= $item['name'] ?></div>
+                                            <div class="uk-child-width-auto uk-flex-middle uk-grid-5" uk-grid>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -4,6 +4,16 @@
       margin-top: 100px;
     }
   }
+  &__item40{
+    &:nth-child(n+2){
+      margin-top: 40px;
+      .block02__hocvien &{
+        @include media-breakpoint-down('s'){
+          margin-top: 24px;
+        }
+      }
+    }
+  }
   &__item32{
     &:nth-child(n+2){
       margin-top: 32px;
