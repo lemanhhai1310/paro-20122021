@@ -1,4 +1,24 @@
 .block01{
+  &__item100{
+    &:nth-child(n+2){
+      margin-top: 100px;
+    }
+  }
+  &__item32{
+    &:nth-child(n+2){
+      margin-top: 32px;
+    }
+  }
+  &__item24{
+    &:nth-child(n+2){
+      margin-top: 24px;
+    }
+  }
+  &__item16{
+    &:nth-child(n+2){
+      margin-top: 16px;
+    }
+  }
   &__navbar{
     .uk-navbar-item{
       min-height: 68px;
@@ -11,16 +31,48 @@
   }
   &__box1{
     &__title{
-      @extend .fz-28;
+      //@extend .fz-28;
+      @extend .fz-48;
       font-family: $font-SF-Pro-Display-Bold;
       color: #ffffff;
       line-height: 1.14;
+      @include media-breakpoint-up('m'){
+        line-height: 1.25;
+        color: #231F20;
+      }
     }
     &__txt{
       color: #FFFFFF;
-      @extend .fz-18;
+      //@extend .fz-18;
+      @extend .fz-20;
       line-height: 1.33;
       font-family: $font-SF-Pro-Display-Semibold;
+      @include media-breakpoint-up('m'){
+        color: #231F20;
+        line-height: 1.17;
+      }
+    }
+    &__img{
+      height: 36px;
+      @include media-breakpoint-up('m'){
+        height: 48px;
+      }
+    }
+  }
+  &__section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  &__boxpc{
+    &__txt{
+      color: #595959;
+      line-height: 1.33;
+      @extend .fz-18;
+      font-family: $font-SF-Pro-Display-Medium;
+    }
+    &__img{
+      position: relative;
+      right: -64px;
     }
   }
 }
