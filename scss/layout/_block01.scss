@@ -12,6 +12,11 @@
   &__item24{
     &:nth-child(n+2){
       margin-top: 24px;
+      .block02__section &{
+        @include media-breakpoint-down('s'){
+          margin-top: 16px;
+        }
+      }
     }
   }
   &__item16{
@@ -36,6 +41,7 @@
       font-family: $font-SF-Pro-Display-Bold;
       color: #ffffff;
       line-height: 1.14;
+      margin: 0;
       @include media-breakpoint-up('m'){
         line-height: 1.25;
         color: #231F20;
