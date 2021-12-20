@@ -400,3 +400,47 @@
         </div>
     </div>
 </div>
+<div class="uk-section-small block02__start">
+    <div class="uk-container uk-container-small uk-padding-remove">
+        <div class="uk-position-relative">
+            <div class="block02__start__trophy"></div>
+            <div class="block02__start__video"></div>
+            <div class="uk-card uk-card-body uk-card-default block02__start__card uk-flex uk-flex-middle">
+                <div class="uk-width-1-1">
+                    <div class="block01__item40">
+                        <h3 class="uk-h3 block02__title uk-text-center">Bắt đầu hành trình giao tiếp tiếng Anh trôi chảy ở bất cứ đâu, khi nào!</h3>
+                    </div>
+                    <div class="block01__item40 uk-text-center">
+                        <button class="uk-button uk-button-primary block02__btn"><span>Luyện tập ngay</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-section-large footer">
+    <div class="uk-container">
+        <div class="footer__item">
+            <div class="uk-flex-middle uk-flex-between" uk-grid>
+                <div class="uk-width-auto@m">
+                    <div class="uk-text-center">
+                        <a href=""><img class="footer__logo" src="images/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="uk-width-auto@m">
+                    <div class="uk-child-width-auto uk-flex-center uk-flex-middle uk-grid-small" uk-grid>
+                        <div>
+                            <a href=""><img class="block01__box1__img" src="images/Download_on_the_App_Store_Badge_VN_RGB_blk_1002171.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a href=""><img class="block01__box1__img" src="images/googleplay.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__item">
+            <div class="uk-text-center uk-text-left@m footer__txt">© 2021 Paro</div>
+        </div>
+    </div>
+</div>

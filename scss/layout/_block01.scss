@@ -17,6 +17,11 @@
           margin-top: 24px;
         }
       }
+      .block02__start &{
+        @include media-breakpoint-down('s'){
+          margin-top: 32px;
+        }
+      }
     }
   }
   &__item32{

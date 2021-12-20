@@ -5,6 +5,53 @@
       text-align: left;
     }
   }
+  &__start{
+    &__trophy{
+      display: flex;
+      position: absolute;
+      width: 90px;
+      height: 101px;
+      left: 0px;
+      bottom: -64px;
+      background-repeat: no-repeat;
+      background-position: center;
+      background: url("images/trophy1mb.png");
+      z-index: 10;
+      @include media-breakpoint-up('m'){
+        width: 178px;
+        height: 216px;
+        left: -21px;
+        bottom: -90px;
+        background: url("images/trophy.png");
+      }
+    }
+    &__video{
+      display: flex;
+      position: absolute;
+      width: 110px;
+      height: 138px;
+      top: -38px;
+      right: 0px;
+      z-index: 10;
+      background: url("images/video1mb.png");
+      @include media-breakpoint-up('m'){
+        width: 207px;
+        height: 188px;
+        top: 97px;
+        right: -61px;
+        background: url("images/video1.png");
+      }
+    }
+    &__card{
+      min-height: 315px;
+      background: #FC8A65;
+      @include media-breakpoint-up('m'){
+        border-radius: 28px;
+        padding-left: 78px;
+        padding-right: 78px;
+      }
+    }
+  }
   &__faq{
     @include media-breakpoint-down('s'){
       padding-top: 0;
@@ -408,6 +455,9 @@
     @extend .fz-40;
     font-family: $font-SF-Pro-Display-Bold;
     margin: 0;
+    .block02__start &{
+      color: #FFFFFF;
+    }
   }
   &__desc{
     color: #595959;
@@ -421,6 +471,10 @@
     text-transform: inherit;
     $x:48px;
     line-height: calc(#{$x} - 2px);
+    .block02__start &{
+      background: #FFFFFF;
+      color: #F15A29;
+    }
   }
   &__grid{
     @include media-breakpoint-down('s'){
