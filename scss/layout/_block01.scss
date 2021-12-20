@@ -4,6 +4,11 @@
       margin-top: 100px;
     }
   }
+  &__item58{
+    &:nth-child(n+2){
+      margin-top: 58px;
+    }
+  }
   &__item40{
     &:nth-child(n+2){
       margin-top: 40px;
@@ -37,6 +42,11 @@
   &__item8{
     &:nth-child(n+2){
       margin-top: 8px;
+    }
+  }
+  &__item4{
+    &:nth-child(n+2){
+      margin-top: 4px;
     }
   }
   &__navbar{

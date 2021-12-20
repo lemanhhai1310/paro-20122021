@@ -287,3 +287,81 @@
         </div>
     </div>
 </div>
+<div class="uk-section-small block02__goicuoc">
+    <div class="uk-container uk-padding-remove">
+        <div class="block02__goicuoc__card uk-card uk-card-body">
+            <div class="block02__goicuoc__star"></div>
+            <div class="block02__goicuoc__gift"></div>
+            <div class="uk-position-relative">
+                <div class="block01__item58">
+                    <div class="block01__item40">
+                        <div class="block01__item16">
+                            <h3 class="uk-h3 block02__title uk-text-center">Một tài khoản học, truy cập không giới hạn</h3>
+                        </div>
+                        <div class="block01__item16">
+                            <div class="block02__desc uk-text-center">Corporis saepe aut officiis labore aperiam consequatur quis sunt. Delectus facere soluta. Sunt dolorem
+                                <br> minima optio labore ut qui placeat.</div>
+                        </div>
+                    </div>
+                    <div class="block01__item40">
+                        <div class="uk-child-width-1-3@m uk-grid-48-m uk-grid-small" uk-grid>
+                            <?php
+                            $data = array(
+                                array(
+                                    'name' => 'Gói 12 buổi',
+                                    'price' => '1.500.000đ',
+                                    'txt1' => 'Tiết kiệm 25%',
+                                    'txt2' => '2.000.000đ',
+                                ),
+                                array(
+                                    'name' => 'Gói 60 buổi',
+                                    'price' => '6.500.000đ',
+                                    'txt1' => 'Tiết kiệm 45%',
+                                    'txt2' => '14.000.000đ',
+                                ),
+                                array(
+                                    'name' => 'Gói 30 buổi',
+                                    'price' => '3.500.000đ',
+                                    'txt1' => 'Tiết kiệm 25%',
+                                    'txt2' => '5.000.000đ',
+                                ),
+                            );
+                            foreach ($data as $item): ?>
+                            <div class="block02__goicuoc__column">
+                                <div class="block02__goicuoc__box1">
+                                    <div class="block02__goicuoc__item">
+                                        <div class="block01__item8">
+                                            <div class="block01__item4">
+                                                <div class="block02__goicuoc__name"><?= $item['name'] ?></div>
+                                            </div>
+                                            <div class="block01__item4">
+                                                <div class="block02__goicuoc__price"><?= $item['price'] ?></div>
+                                            </div>
+                                        </div>
+                                        <div class="block01__item8">
+                                            <div class="uk-child-width-auto uk-grid-16 uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <div class="block02__goicuoc__label"><?= $item['txt1'] ?></div>
+                                                </div>
+                                                <div>
+                                                    <del class="block02__goicuoc__priceOld"><?= $item['txt2'] ?></del>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block02__goicuoc__item">
+                                        <div class="block02__goicuoc__time">Thời gian: 4 tháng</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+                <div class="block01__item58 uk-visible@m">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
