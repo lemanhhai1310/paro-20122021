@@ -30,7 +30,7 @@
         </div>
     </div>
 </div>
-<div class="uk-visible@m uk-position-relative" uk-height-viewport>
+<div class="uk-visible@m uk-position-relative" uk-height-viewport="offset-top: true;offset-bottom: true">
     <div class="uk-container">
         <div class="uk-flex-right" uk-grid>
             <div>
