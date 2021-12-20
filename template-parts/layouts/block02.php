@@ -289,7 +289,7 @@
 </div>
 <div class="uk-section-small block02__goicuoc">
     <div class="uk-container uk-padding-remove">
-        <div class="block02__goicuoc__card uk-card uk-card-body">
+        <div class="block01__item24 block02__goicuoc__card uk-card uk-card-body">
             <div class="block02__goicuoc__star"></div>
             <div class="block02__goicuoc__gift"></div>
             <div class="uk-position-relative">
@@ -358,10 +358,45 @@
                         </div>
                     </div>
                 </div>
-                <div class="block01__item58 uk-visible@m">
-
-                </div>
             </div>
+        </div>
+        <div class="block01__item24 uk-visible@m uk-text-center">
+            <button class="uk-button uk-button-primary block02__btn"><span>Học thử miễn phí</span></button>
+        </div>
+    </div>
+</div>
+<div class="uk-section-small block02__faq">
+    <div class="uk-container uk-container-small">
+        <div class="block01__item32">
+            <h3 class="uk-h3 block02__title uk-text-center">Câu hỏi thường gặp</h3>
+        </div>
+        <div class="block01__item32">
+            <ul class="block02__faq__accordion" uk-accordion>
+                <li class="block02__faq__li uk-open">
+                    <a class="uk-accordion-title block02__faq__title" href="#">Debitis tenetur vitae sed assumenda numquam et ab.?</a>
+                    <div class="uk-accordion-content block02__faq__content">
+                        <p>Enim sit adipisci ipsum debitis sed eos. Non voluptas odio tempora. Facere dolorem et in veniam tempora. Et aspernatur numquam nam aut ut voluptas. Ab est et laudantium aut. Eligendi voluptatem est dignissimos voluptatum aut velit provident molestiae sit.</p>
+                    </div>
+                </li>
+                <li class="block02__faq__li">
+                    <a class="uk-accordion-title block02__faq__title" href="#">Debitis tenetur vitae sed assumenda numquam et ab.?</a>
+                    <div class="uk-accordion-content block02__faq__content">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    </div>
+                </li>
+                <li class="block02__faq__li">
+                    <a class="uk-accordion-title block02__faq__title" href="#">Debitis tenetur vitae sed assumenda numquam et ab.?</a>
+                    <div class="uk-accordion-content block02__faq__content">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    </div>
+                </li>
+                <li class="block02__faq__li">
+                    <a class="uk-accordion-title block02__faq__title" href="#">Debitis tenetur vitae sed assumenda numquam et ab.?</a>
+                    <div class="uk-accordion-content block02__faq__content">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
