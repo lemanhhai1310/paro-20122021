@@ -24,6 +24,11 @@
       margin-top: 16px;
     }
   }
+  &__item8{
+    &:nth-child(n+2){
+      margin-top: 8px;
+    }
+  }
   &__navbar{
     .uk-navbar-item{
       min-height: 68px;
