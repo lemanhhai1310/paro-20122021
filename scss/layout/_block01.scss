@@ -1,0 +1,26 @@
+.block01{
+  &__navbar{
+    .uk-navbar-item{
+      min-height: 68px;
+    }
+    .uk-logo{
+      img{
+        height: 36px;
+      }
+    }
+  }
+  &__box1{
+    &__title{
+      @extend .fz-28;
+      font-family: $font-SF-Pro-Display-Bold;
+      color: #ffffff;
+      line-height: 1.14;
+    }
+    &__txt{
+      color: #FFFFFF;
+      @extend .fz-18;
+      line-height: 1.33;
+      font-family: $font-SF-Pro-Display-Semibold;
+    }
+  }
+}

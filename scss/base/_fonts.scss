@@ -1,78 +1,59 @@
 /**
  * --------------------------------------------------------------------
- * Arial
+ * SF-compact-rounded
  * --------------------------------------------------------------------
  */
 @font-face{
-  font-family:'Arial Regular';
+  font-family:'SF Compact Rounded Regular';
   font-display: auto;
-  src:local('Arial Regular'), url('fonts/Arial/arial.ttf') format('truetype');
+  src:local('SF Compact Rounded Regular'), url('fonts/SF-compact-rounded/SF-Compact-Rounded-Regular.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'SF Compact Rounded Semibold';
+  font-display: auto;
+  src:local('SF Compact Rounded Semibold'), url('fonts/SF-compact-rounded/SF-Compact-Rounded-Semibold.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'SF Compact Rounded Medium';
+  font-display: auto;
+  src:local('SF Compact Rounded Medium'), url('fonts/SF-compact-rounded/SF-Compact-Rounded-Medium.otf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 /**
  * --------------------------------------------------------------------
- * Verdana
+ * SF Pro Display
  * --------------------------------------------------------------------
  */
 @font-face{
-  font-family:'Verdana Regular';
+  font-family:'SF Pro Display Regular';
   font-display: auto;
-  src:local('Verdana Regular'), url('fonts/Fonts/Verdana.ttf') format('truetype');
+  src:local('SF Pro Display Regular'), url('fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 @font-face{
-  font-family:'Verdana Bold';
+  font-family:'SF Pro Display Bold';
   font-display: auto;
-  src:local('Verdana Bold'), url('fonts/Fonts/Verdana-Bold.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-/**
- * --------------------------------------------------------------------
- * Roboto
- * --------------------------------------------------------------------
- */
-@font-face{
-  font-family:'Roboto Regular';
-  font-display: auto;
-  src:local('Roboto Regular'), url('fonts/Fonts/Roboto-Regular.ttf') format('truetype');
+  src:local('SF Pro Display Bold'), url('fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 @font-face{
-  font-family:'Roboto Black';
+  font-family:'SF Pro Display Medium';
   font-display: auto;
-  src:local('Roboto Black'), url('fonts/Fonts/Roboto-Black.ttf') format('truetype');
+  src:local('SF Pro Display Medium'), url('fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
 @font-face{
-  font-family:'Roboto Bold Italic';
+  font-family:'SF Pro Display Semibold';
   font-display: auto;
-  src:local('Roboto Bold Italic'), url('fonts/Fonts/Roboto-BoldItalic.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-@font-face{
-  font-family:'Roboto Bold';
-  font-display: auto;
-  src:local('Roboto Bold'), url('fonts/Fonts/Roboto-Bold.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-@font-face{
-  font-family:'Roboto Medium';
-  font-display: auto;
-  src:local('Roboto Medium'), url('fonts/Fonts/Roboto-Medium.ttf') format('truetype');
-  font-weight:normal;
-  font-style:normal;
-}
-@font-face{
-  font-family:'Roboto Light Italic';
-  font-display: auto;
-  src:local('Roboto Light Italic'), url('fonts/Fonts/Roboto-LightItalic.ttf') format('truetype');
+  src:local('SF Pro Display Semibold'), url('fonts/SF-Pro-Display/SF-Pro-Display-Semibold.otf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }
