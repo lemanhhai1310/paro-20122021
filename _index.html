@@ -1,10 +1,663 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
+    <script src="/__prepros.js"></script>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Paro - Trang chủ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="assets/uikit-3.9.4/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1640035200">
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="assets/uikit-3.9.4/js/uikit.min.js"></script>
+    <script src="assets/uikit-3.9.4/js/uikit-icons.min.js"></script>
+    <script src="js/app.js?v=1640035200"></script>
 </head>
-<body>
+<body class="">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2428809380682169"
+     logged_in_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi"
+     logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
+</div>
+<script>
+    defer(function() {
+        window.fbAsyncInit = function() {
+            FB.init({
+                xfbml            : true,
+                version          : 'v5.0'
+            });
+        };
 
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    }, 5000);
+</script><!--app-->
+<div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative"><nav class="block01__navbar uk-navbar-container uk-navbar-transparent uk-hidden@m" uk-navbar>
+    <div class="uk-navbar-center">
+        <a class="uk-navbar-item uk-logo" href="#"><img src="images/logo1.png" alt=""></a>
+    </div>
+</nav>
+    <div class="uk-hidden@m uk-background-top-center uk-background-norepeat uk-background-width-1-1 uk-cover-container" uk-height-viewport="offset-top: true" data-src="images/Frame1186.png" uk-img>
+        <canvas width="720" height="1576"></canvas>
+        <div class="uk-position-cover uk-section-xsmall">
+            <div class="uk-container">
+                <div class="uk-text-center uk-light block01__box1">
+                    <div class="uk-child-width-1-1 uk-grid-16" uk-grid>
+                        <div>
+                            <h2 class="uk-h2 block01__box1__title">Ứng dụng luyện giao tiếp Tiếng Anh với giáo viên nước ngoài</h2>
+                        </div>
+                        <div>
+                            <div class="block01__box1__txt">Tải app học thử miễn phí ngay!</div>
+                        </div>
+                        <div>
+                            <div class="uk-child-width-auto uk-flex-center uk-flex-middle uk-grid-small" uk-grid>
+                                <div>
+                                    <a href=""><img class="block01__box1__img" src="images/Download_on_the_App_Store_Badge_VN_RGB_blk_1002171.png" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href=""><img class="block01__box1__img" src="images/googleplay.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-visible@m uk-position-relative" uk-height-viewport="offset-top: true;offset-bottom: true">
+        <div class="uk-container">
+            <div class="uk-flex-right" uk-grid>
+                <div>
+                    <img class="block01__boxpc__img" src="images/Frame11186.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="uk-position-cover uk-section block01__section">
+            <div class="uk-container">
+                <div uk-grid>
+                    <div class="uk-width-1-2">
+                        <div class="block01__item100">
+                            <a href=""><img src="images/logo.png" alt=""></a>
+                        </div>
+                        <div class="block01__item100">
+                            <div class="block01__item32">
+                                <div class="block01__item24">
+                                    <h2 class="uk-h2 block01__box1__title">Ứng dụng luyện giao tiếp Tiếng Anh với giáo viên nước ngoài</h2>
+                                </div>
+                                <div class="block01__item24">
+                                    <div class="block01__item16">
+                                        <div class="block01__boxpc__txt">Cách nhanh nhất để nói tiếng Anh thành thạo với các lớp học 1-1 theo nhu cầu và trình độ của bạn.</div>
+                                    </div>
+                                    <div class="block01__item16">
+                                        <div class="block01__box1__txt">Tải app học thử miễn phí ngay!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block01__item32">
+                                <div class="uk-child-width-auto uk-flex-middle uk-grid-small" uk-grid>
+                                    <div>
+                                        <a href=""><img class="block01__box1__img" src="images/Download_on_the_App_Store_Badge_VN_RGB_blk_1002171.png" alt=""></a>
+                                    </div>
+                                    <div>
+                                        <a href=""><img class="block01__box1__img" src="images/googleplay.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><div class="uk-section-small block02__section">
+        <div class="uk-container">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-2-5@m">
+                    <div class="block01__item24">
+                        <h3 class="uk-h3 block02__title">Chủ động lựa chọn giáo viên qua app</h3>
+                    </div>
+                    <div class="block01__item24">
+                        <div class="block02__desc">Cách nhanh nhất để nói tiếng Anh thành thạo với các lớp học 1-1 theo nhu cầu và trình độ của bạn.</div>
+                    </div>
+                    <div class="block01__item24">
+                        <button class="uk-button uk-button-primary block02__btn"><span>Bắt đầu học tập</span></button>
+                    </div>
+                </div>
+                <div class="uk-width-expand uk-flex-first@m">
+                    <div class="block02__box1">
+                        <img class="uk-visible@m" src="images/Frame1077.png" alt="">
+                        <img class="uk-hidden@m uk-width-1-1" src="images/Frame10771.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block02__section">
+        <div class="uk-container">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-2-5@m">
+                    <div class="block01__item24">
+                        <h3 class="uk-h3 block02__title">Thời gian siêu linh hoạt</h3>
+                    </div>
+                    <div class="block01__item24">
+                        <div class="block02__desc">Cách nhanh nhất để nói tiếng Anh thành thạo với các lớp học 1-1 theo nhu cầu và trình độ của bạn.</div>
+                    </div>
+                    <div class="block01__item24">
+                        <button class="uk-button uk-button-primary block02__btn"><span>Bắt đầu học tập</span></button>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="block02__box1">
+                        <img class="uk-visible@m" src="images/Frame1078.png" alt="">
+                        <img class="uk-hidden@m uk-width-1-1" src="images/Frame10781.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block02__section">
+        <div class="uk-container">
+            <div class="uk-flex-middle uk-grid-77-m" uk-grid>
+                <div class="uk-width-2-5@m">
+                    <div class="block01__item24">
+                        <h3 class="uk-h3 block02__title">Tiếng Anh giao tiếp theo nhu cầu thực tiễn</h3>
+                    </div>
+                    <div class="block01__item24">
+                        <div class="block02__desc">Cách nhanh nhất để nói tiếng Anh thành thạo với các lớp học 1-1 theo nhu cầu và trình độ của bạn.</div>
+                    </div>
+                    <div class="block01__item24">
+                        <button class="uk-button uk-button-primary block02__btn"><span>Bắt đầu học tập</span></button>
+                    </div>
+                </div>
+                <div class="uk-width-expand uk-flex-first@m">
+                    <div class="block02__box1" uk-toggle="cls: uk-overflow-auto; mode: media; media: (max-width: 959px)">
+                        <div class="uk-child-width-1-2@m uk-grid-match uk-grid-20-m uk-grid-small uk-flex-nowrap block02__grid" uk-grid>
+                            <div class="block02__grid__column">
+                                <div class="block02__card uk-card uk-card-default uk-card-body">
+                                    <div class="block01__item8">
+                                        <div class="uk-cover-container">
+                                            <img src="images/Frame1241.png" alt="" uk-cover="">
+                                            <canvas width="300" height="216"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="block01__item8">
+                                        <div class="block01__item16">
+                                            <div class="block02__card__title">Khóa giao tiếp thông dụng cho người lớn</div>
+                                        </div>
+                                        <div class="block01__item16">
+                                            <div class="block02__card__txt1">Luyện tập để nói tự tin và trôi chảy với tiếng Anh hội thoại</div>
+                                        </div>
+                                        <div class="block01__item16">
+                                            <div class="block02__card__txt2">Begginer 10 bài học</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block02__grid__column">
+                                <div class="block02__card uk-card uk-card-default uk-card-body">
+                                    <div class="block01__item8">
+                                        <div class="uk-cover-container">
+                                            <img src="images/Frame12411.png" alt="" uk-cover="">
+                                            <canvas width="300" height="216"></canvas>
+                                        </div>
+                                    </div>
+                                    <div class="block01__item8">
+                                        <div class="block01__item16">
+                                            <div class="block02__card__title">Khóa giao tiếp thương mại (Business English)</div>
+                                        </div>
+                                        <div class="block01__item16">
+                                            <div class="block02__card__txt1">Luyện tập để nói tự tin và trôi chảy với tiếng Anh hội thoại</div>
+                                        </div>
+                                        <div class="block01__item16">
+                                            <div class="block02__card__txt2">Intermediate 10 bài học</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block02__section">
+        <div class="uk-container">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-2-5@m">
+                    <div class="block01__item24">
+                        <h3 class="uk-h3 block02__title">Học phí tiết kiệm, thanh toán linh hoạt</h3>
+                    </div>
+                    <div class="block01__item24">
+                        <div class="block02__desc">Cách nhanh nhất để nói tiếng Anh thành thạo với các lớp học 1-1 theo nhu cầu và trình độ của bạn.</div>
+                    </div>
+                    <div class="block01__item24">
+                        <button class="uk-button uk-button-primary block02__btn"><span>Bắt đầu học tập</span></button>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="block02__box1">
+                        <img class="uk-visible@m" src="images/Frame11077.png" alt="">
+                        <img class="uk-hidden@m uk-width-1-1" src="images/Frame110771.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block02__section">
+        <div class="uk-container">
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-2-5@m">
+                    <div class="block01__item32">
+                        <h3 class="uk-h3 block02__title">4 bước học với Paro 🤩</h3>
+                    </div>
+                    <div class="block01__item32">
+                        <ul class="uk-visible@m block02__accordion" uk-accordion>
+                            <li class="uk-open block02__accordion__li">
+                                <a class="uk-accordion-title block02__accordion__a" href="#"><div class="block02__accordion__txt">Chọn giáo viên và giờ học</div></a>
+                                <div class="uk-accordion-content block02__accordion__content">
+                                    <p class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </li>
+                            <li class="block02__accordion__li">
+                                <a class="uk-accordion-title block02__accordion__a" href="#"><div class="block02__accordion__txt">Chọn khóa học phù hợp</div></a>
+                                <div class="uk-accordion-content block02__accordion__content">
+                                    <p class="block02__accordion__p">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li class="block02__accordion__li">
+                                <a class="uk-accordion-title block02__accordion__a" href="#"><div class="block02__accordion__txt">Tương tác với giáo viên trong lớp</div></a>
+                                <div class="uk-accordion-content block02__accordion__content">
+                                    <p class="block02__accordion__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                </div>
+                            </li>
+                            <li class="block02__accordion__li">
+                                <a class="uk-accordion-title block02__accordion__a" href="#"><div class="block02__accordion__txt">Xem lại buổi học</div></a>
+                                <div class="uk-accordion-content block02__accordion__content">
+                                    <p class="block02__accordion__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="uk-hidden@m">
+                            <ul class="uk-child-width-expand block02__tab" uk-tab>
+                                <li class="uk-active block02__tab__li"><a class="block02__tab__a" href="#"></a></li>
+                                <li class="block02__tab__li"><a class="block02__tab__a" href="#"></a></li>
+                                <li class="block02__tab__li"><a class="block02__tab__a" href="#"></a></li>
+                                <li class="block02__tab__li"><a class="block02__tab__a" href="#"></a></li>
+                            </ul>
+                            <ul class="uk-switcher uk-margin uk-text-left">
+                                <li>
+                                    <div class="block01__item8">
+                                        <div class="block02__accordion__txt">Chọn giáo viên và giờ học</div>
+                                    </div>
+                                    <div class="block01__item8">
+                                        <div class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="block01__item8">
+                                        <div class="block02__accordion__txt">Chọn khóa học phù hợp</div>
+                                    </div>
+                                    <div class="block01__item8">
+                                        <div class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="block01__item8">
+                                        <div class="block02__accordion__txt">Tương tác với giáo viên trong lớp</div>
+                                    </div>
+                                    <div class="block01__item8">
+                                        <div class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="block01__item8">
+                                        <div class="block02__accordion__txt">Xem lại buổi học</div>
+                                    </div>
+                                    <div class="block01__item8">
+                                        <div class="block02__accordion__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="block02__box1">
+                        <img class="uk-visible@m" src="images/4buoc.png" alt="">
+                        <img class="uk-hidden@m uk-width-1-1" src="images/4buoc1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block02__hocvien">
+        <div class="uk-container">
+            <div class="block01__item40">
+                <h3 class="uk-h3 block02__title uk-text-center">Học viên nói về Paro</h3>
+            </div>
+            <div class="block01__item40">
+                <div class="block02__hocvien__box" uk-toggle="cls: uk-overflow-auto; mode: media; media: (max-width: 959px)">
+                    <div class="block02__hocvien__grid uk-grid-24-m uk-grid-small uk-child-width-1-3@m uk-flex-nowrap" uk-grid>
+                        <div class="block02__hocvien__column">
+                            <div class="block02__hocvien__card uk-card uk-card-default uk-card-body">
+                                <div class="block01__item24">
+                                    <div class="block02__hocvien__txt">“Corporis saepe aut officiis labore aperiam consequatur quis sunt. Delectus facere soluta. Sunt dolorem minima optio labore ut qui placeat. Quis amet eaque sint ab. Natus eos ut accusantium qui suscipit enim omnis.”</div>
+                                </div>
+                                <div class="block01__item24">
+                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container uk-border-circle">
+                                                <img src="images/unsplash_COgbRUTvL-s.png" alt="" uk-cover="">
+                                                <canvas class="uk-visible@m" width="72" height="72"></canvas>
+                                                <canvas class="uk-hidden@m" width="44" height="44"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="block02__hocvien__name">Andy White</div>
+                                            <div class="uk-child-width-auto uk-flex-middle uk-grid-5" uk-grid>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block02__hocvien__column">
+                            <div class="block02__hocvien__card uk-card uk-card-default uk-card-body">
+                                <div class="block01__item24">
+                                    <div class="block02__hocvien__txt">“Corporis saepe aut officiis labore aperiam consequatur quis sunt. Delectus facere soluta. Sunt dolorem minima optio labore ut qui placeat. Quis amet eaque sint ab. Natus eos ut accusantium qui suscipit enim omnis.”</div>
+                                </div>
+                                <div class="block01__item24">
+                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container uk-border-circle">
+                                                <img src="images/unsplash_ICbGtkX9-q8.png" alt="" uk-cover="">
+                                                <canvas class="uk-visible@m" width="72" height="72"></canvas>
+                                                <canvas class="uk-hidden@m" width="44" height="44"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="block02__hocvien__name">Rusia Mai</div>
+                                            <div class="uk-child-width-auto uk-flex-middle uk-grid-5" uk-grid>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="block02__hocvien__column">
+                            <div class="block02__hocvien__card uk-card uk-card-default uk-card-body">
+                                <div class="block01__item24">
+                                    <div class="block02__hocvien__txt">“Corporis saepe aut officiis labore aperiam consequatur quis sunt. Delectus facere soluta. Sunt dolorem minima optio labore ut qui placeat. Quis amet eaque sint ab. Natus eos ut accusantium qui suscipit enim omnis.”</div>
+                                </div>
+                                <div class="block01__item24">
+                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container uk-border-circle">
+                                                <img src="images/unsplash_owFmHMC4QAI.png" alt="" uk-cover="">
+                                                <canvas class="uk-visible@m" width="72" height="72"></canvas>
+                                                <canvas class="uk-hidden@m" width="44" height="44"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="block02__hocvien__name">Madam Shelby</div>
+                                            <div class="uk-child-width-auto uk-flex-middle uk-grid-5" uk-grid>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star uk-active"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star"></div>
+                                                </div>
+                                                <div>
+                                                    <div class="block02__hocvien__star"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block02__goicuoc">
+        <div class="uk-container uk-padding-remove">
+            <div class="block01__item24 block02__goicuoc__card uk-card uk-card-body">
+                <div class="block02__goicuoc__star"></div>
+                <div class="block02__goicuoc__gift"></div>
+                <div class="uk-position-relative">
+                    <div class="block01__item58">
+                        <div class="block01__item40">
+                            <div class="block01__item16">
+                                <h3 class="uk-h3 block02__title uk-text-center">Một tài khoản học, truy cập không giới hạn</h3>
+                            </div>
+                            <div class="block01__item16">
+                                <div class="block02__desc uk-text-center">Corporis saepe aut officiis labore aperiam consequatur quis sunt. Delectus facere soluta. Sunt dolorem
+                                    <br> minima optio labore ut qui placeat.</div>
+                            </div>
+                        </div>
+                        <div class="block01__item40">
+                            <div class="uk-child-width-1-3@m uk-grid-48-m uk-grid-small" uk-grid>
+                                <div class="block02__goicuoc__column">
+                                    <div class="block02__goicuoc__box1">
+                                        <div class="block02__goicuoc__item">
+                                            <div class="block01__item8">
+                                                <div class="block01__item4">
+                                                    <div class="block02__goicuoc__name">Gói 12 buổi</div>
+                                                </div>
+                                                <div class="block01__item4">
+                                                    <div class="block02__goicuoc__price">1.500.000đ</div>
+                                                </div>
+                                            </div>
+                                            <div class="block01__item8">
+                                                <div class="uk-child-width-auto uk-grid-16 uk-flex-middle" uk-grid>
+                                                    <div>
+                                                        <div class="block02__goicuoc__label">Tiết kiệm 25%</div>
+                                                    </div>
+                                                    <div>
+                                                        <del class="block02__goicuoc__priceOld">2.000.000đ</del>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block02__goicuoc__item">
+                                            <div class="block02__goicuoc__time">Thời gian: 4 tháng</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block02__goicuoc__column">
+                                    <div class="block02__goicuoc__box1">
+                                        <div class="block02__goicuoc__item">
+                                            <div class="block01__item8">
+                                                <div class="block01__item4">
+                                                    <div class="block02__goicuoc__name">Gói 60 buổi</div>
+                                                </div>
+                                                <div class="block01__item4">
+                                                    <div class="block02__goicuoc__price">6.500.000đ</div>
+                                                </div>
+                                            </div>
+                                            <div class="block01__item8">
+                                                <div class="uk-child-width-auto uk-grid-16 uk-flex-middle" uk-grid>
+                                                    <div>
+                                                        <div class="block02__goicuoc__label">Tiết kiệm 45%</div>
+                                                    </div>
+                                                    <div>
+                                                        <del class="block02__goicuoc__priceOld">14.000.000đ</del>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block02__goicuoc__item">
+                                            <div class="block02__goicuoc__time">Thời gian: 4 tháng</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block02__goicuoc__column">
+                                    <div class="block02__goicuoc__box1">
+                                        <div class="block02__goicuoc__item">
+                                            <div class="block01__item8">
+                                                <div class="block01__item4">
+                                                    <div class="block02__goicuoc__name">Gói 30 buổi</div>
+                                                </div>
+                                                <div class="block01__item4">
+                                                    <div class="block02__goicuoc__price">3.500.000đ</div>
+                                                </div>
+                                            </div>
+                                            <div class="block01__item8">
+                                                <div class="uk-child-width-auto uk-grid-16 uk-flex-middle" uk-grid>
+                                                    <div>
+                                                        <div class="block02__goicuoc__label">Tiết kiệm 25%</div>
+                                                    </div>
+                                                    <div>
+                                                        <del class="block02__goicuoc__priceOld">5.000.000đ</del>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="block02__goicuoc__item">
+                                            <div class="block02__goicuoc__time">Thời gian: 4 tháng</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block01__item24 uk-visible@m uk-text-center">
+                <button class="uk-button uk-button-primary block02__btn"><span>Học thử miễn phí</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block02__faq">
+        <div class="uk-container uk-container-small">
+            <div class="block01__item32">
+                <h3 class="uk-h3 block02__title uk-text-center">Câu hỏi thường gặp</h3>
+            </div>
+            <div class="block01__item32">
+                <ul class="block02__faq__accordion" uk-accordion>
+                    <li class="block02__faq__li uk-open">
+                        <a class="uk-accordion-title block02__faq__title" href="#">Debitis tenetur vitae sed assumenda numquam et ab.?</a>
+                        <div class="uk-accordion-content block02__faq__content">
+                            <p>Enim sit adipisci ipsum debitis sed eos. Non voluptas odio tempora. Facere dolorem et in veniam tempora. Et aspernatur numquam nam aut ut voluptas. Ab est et laudantium aut. Eligendi voluptatem est dignissimos voluptatum aut velit provident molestiae sit.</p>
+                        </div>
+                    </li>
+                    <li class="block02__faq__li">
+                        <a class="uk-accordion-title block02__faq__title" href="#">Debitis tenetur vitae sed assumenda numquam et ab.?</a>
+                        <div class="uk-accordion-content block02__faq__content">
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                        </div>
+                    </li>
+                    <li class="block02__faq__li">
+                        <a class="uk-accordion-title block02__faq__title" href="#">Debitis tenetur vitae sed assumenda numquam et ab.?</a>
+                        <div class="uk-accordion-content block02__faq__content">
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                        </div>
+                    </li>
+                    <li class="block02__faq__li">
+                        <a class="uk-accordion-title block02__faq__title" href="#">Debitis tenetur vitae sed assumenda numquam et ab.?</a>
+                        <div class="uk-accordion-content block02__faq__content">
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-small block02__start">
+        <div class="uk-container uk-container-small uk-padding-remove">
+            <div class="uk-position-relative">
+                <div class="block02__start__trophy"></div>
+                <div class="block02__start__video"></div>
+                <div class="uk-card uk-card-body uk-card-default block02__start__card uk-flex uk-flex-middle">
+                    <div class="uk-width-1-1">
+                        <div class="block01__item40">
+                            <h3 class="uk-h3 block02__title uk-text-center">Bắt đầu hành trình giao tiếp tiếng Anh trôi chảy ở bất cứ đâu, khi nào!</h3>
+                        </div>
+                        <div class="block01__item40 uk-text-center">
+                            <button class="uk-button uk-button-primary block02__btn"><span>Luyện tập ngay</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-section-large footer">
+        <div class="uk-container">
+            <div class="footer__item">
+                <div class="uk-flex-middle uk-flex-between" uk-grid>
+                    <div class="uk-width-auto@m">
+                        <div class="uk-text-center">
+                            <a href=""><img class="footer__logo" src="images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="uk-width-auto@m">
+                        <div class="uk-child-width-auto uk-flex-center uk-flex-middle uk-grid-small" uk-grid>
+                            <div>
+                                <a href=""><img class="block01__box1__img" src="images/Download_on_the_App_Store_Badge_VN_RGB_blk_1002171.png" alt=""></a>
+                            </div>
+                            <div>
+                                <a href=""><img class="block01__box1__img" src="images/googleplay.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="uk-text-center uk-text-left@m footer__txt">© 2021 Paro</div>
+            </div>
+        </div>
+    </div></div>
+<!--/app-->
 </body>
 </html>
