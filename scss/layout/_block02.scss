@@ -471,9 +471,16 @@
     text-transform: inherit;
     $x:48px;
     line-height: calc(#{$x} - 2px);
+    &:hover{
+      background: #18aeef;
+    }
     .block02__start &{
       background: #FFFFFF;
       color: #F15A29;
+      &:hover{
+        background: #232022;
+        color: #FFFFFF;
+      }
     }
   }
   &__grid{
