@@ -148,19 +148,19 @@
                             </div>
                         </li>
                         <li class="block02__accordion__li">
-                            <a class="uk-accordion-title block02__accordion__a" data-src="https://znews-photo.zadn.vn/w480/Uploaded/rohunuk/2021_12_19/thum.jpg" href="#"><div class="block02__accordion__txt">Chọn khóa học phù hợp</div></a>
+                            <a class="uk-accordion-title block02__accordion__a" data-src="images/landingpage/image-2.png" href="#"><div class="block02__accordion__txt">Chọn khóa học phù hợp</div></a>
                             <div class="uk-accordion-content block02__accordion__content">
                                 <p class="block02__accordion__p">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
                             </div>
                         </li>
                         <li class="block02__accordion__li">
-                            <a class="uk-accordion-title block02__accordion__a" data-src="https://znews-photo.zadn.vn/w480/Uploaded/chuobun/2021_12_20/cua_khau_.jpg" href="#"><div class="block02__accordion__txt">Tương tác với giáo viên trong lớp</div></a>
+                            <a class="uk-accordion-title block02__accordion__a" data-src="images/landingpage/image-3.png" href="#"><div class="block02__accordion__txt">Tương tác với giáo viên trong lớp</div></a>
                             <div class="uk-accordion-content block02__accordion__content">
                                 <p class="block02__accordion__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
                         </li>
                         <li class="block02__accordion__li">
-                            <a class="uk-accordion-title block02__accordion__a" data-src="https://znews-photo.zadn.vn/w660/Uploaded/vnaits/2021_12_13/rev_1_DUN_T2_0050r_High_Res_JPEG.0.jpeg" href="#"><div class="block02__accordion__txt">Xem lại buổi học</div></a>
+                            <a class="uk-accordion-title block02__accordion__a" data-src="images/landingpage/image-4.png" href="#"><div class="block02__accordion__txt">Xem lại buổi học</div></a>
                             <div class="uk-accordion-content block02__accordion__content">
                                 <p class="block02__accordion__p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
                             </div>
@@ -169,9 +169,9 @@
                     <div class="uk-hidden@m">
                         <ul class="uk-child-width-expand block02__tab" uk-tab>
                             <li class="uk-active block02__tab__li"><a class="block02__tab__a" data-src="images/4buoc.png" href="#"></a></li>
-                            <li class="block02__tab__li"><a class="block02__tab__a" data-src="https://znews-photo.zadn.vn/w480/Uploaded/rohunuk/2021_12_19/thum.jpg" href="#"></a></li>
-                            <li class="block02__tab__li"><a class="block02__tab__a" data-src="https://znews-photo.zadn.vn/w480/Uploaded/chuobun/2021_12_20/cua_khau_.jpg" href="#"></a></li>
-                            <li class="block02__tab__li"><a class="block02__tab__a" data-src="https://znews-photo.zadn.vn/w660/Uploaded/vnaits/2021_12_13/rev_1_DUN_T2_0050r_High_Res_JPEG.0.jpeg" href="#"></a></li>
+                            <li class="block02__tab__li"><a class="block02__tab__a" data-src="images/landingpage/image-2.png" href="#"></a></li>
+                            <li class="block02__tab__li"><a class="block02__tab__a" data-src="images/landingpage/image-3.png" href="#"></a></li>
+                            <li class="block02__tab__li"><a class="block02__tab__a" data-src="images/landingpage/image-4.png" href="#"></a></li>
                         </ul>
                         <ul class="uk-switcher uk-margin uk-text-left">
                             <li>
@@ -213,7 +213,7 @@
             <div class="uk-width-expand">
                 <div class="block02__box1">
                     <img class="uk-visible@m pcImage" src="images/4buoc.png" alt="">
-                    <img class="uk-hidden@m uk-width-1-1 mobileImage" src="images/4buoc1.png" alt="">
+                    <img class="uk-hidden@m uk-width-1-1 mobileImage" src="images/4buoc.png" alt="">
                 </div>
             </div>
         </div>
